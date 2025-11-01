@@ -1,0 +1,387 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Add accessible line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 6. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+header {
+  display: flex;
+  background-color: rgb(248, 245, 242, 0.7);
+  height: 5rem;
+  align-items: center;
+  position: fixed;
+  width: 1600px;
+}
+header img {
+  height: 64px;
+  aspect-ratio: 1/1;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.hero {
+  background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
+  height: 100vh; /* يخلي الجسم بطول الشاشة */
+  background-repeat: no-repeat; /* ما تتكررش */
+}
+.logo-con {
+  display: flex;
+}
+.logo-con p {
+  margin-right: 25px;
+  align-content: center;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: rgb(62, 39, 35);
+  font-family: Playpen Sans Arabic;
+}
+.logo-con p:hover {
+  border: 1px rgb(62, 39, 35) solid;
+  border-radius: 50%;
+}
+nav {
+  display: flex;
+  margin-right: 570px;
+  margin-left: 10px;
+  gap: 40px;
+}
+nav a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(62, 39, 35);
+  font-size: 1.2em;
+  font-family: Playpen Sans Arabic;
+}
+nav a:hover {
+  border-bottom: 1px rgb(62, 39, 35) solid;
+}
+nav a {
+  transition: color 0.3s ease;
+}
+
+nav:hover a {
+  color: gray;
+}
+
+nav a:hover {
+  color: brown;
+}
+.hero h2 {
+  display: flex;
+  font-size: 2.8rem;
+  padding-top: 170px;
+  padding-right: 100px;
+  font-family: Playpen Sans Arabic;
+  color: white;
+}
+.hero p {
+  display: flex;
+  font-size: 1.5rem;
+  padding-top: 50px;
+  padding-right: 90px;
+  font-family: Playpen Sans Arabic;
+  color: white;
+  line-height: 50px;
+}
+.hero span {
+  color: rgb(215 183 138);
+  font-weight: 700;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 50px;
+}
+.hero button {
+  background: linear-gradient(135deg, #4f6f52, #d7b78a);
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px #4f6f524d;
+  color: #fff;
+  cursor: pointer;
+  font-family: Playpen Sans Arabic;
+  font-size: 1.05rem;
+  font-weight: 700;
+  padding: 0.4rem 1.5rem;
+  transition: all 0.5s ease;
+  margin-right: 85px;
+  margin-top: 50px;
+}
+.drinks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1400px;
+  margin: auto;
+}
+.drinks div {
+  background-color: rgb(241, 236, 229);
+  height: 500px;
+  border-radius: 20px;
+}
+.drinks div:nth-child(1) {
+  margin-top: 100px;
+}
+.drinks div:nth-child(2) {
+  margin-top: 100px;
+}
+.drinks div:nth-child(3) {
+  margin-top: 100px;
+}
+.drinks div:nth-child(4) {
+  margin-top: 100px;
+}
+.drinks img {
+  width: 330px;
+  height: 300px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.drinks div p {
+  color: rgb(62, 39, 35);
+  font-size: 1.2em;
+  font-family: Playpen Sans Arabic;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.drinks div p:nth-child(3) {
+  color: rgb(62, 39, 35);
+  font-size: 1rem;
+  font-family: Playpen Sans Arabic;
+  padding-top: 30px;
+  font-weight: normal;
+}
+
+.hero-8 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* border-bottom: 1px white solid; */
+}
+.hero-8 div {
+  background-color: rgb(79, 111, 82);
+}
+.text {
+  padding-right: 200px;
+  padding-top: 50px;
+}
+.text p,
+h3 {
+  color: white;
+  font-size: 2rem;
+  font-family: Playpen Sans Arabic;
+}
+.text h3:hover {
+  color: rgb(215 183 138);
+}
+.text p {
+  margin-top: 30px;
+  color: white;
+  font-size: 1rem;
+  font-family: Playpen Sans Arabic;
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding-right: 30px;
+  padding-top: 50px;
+  gap: 20px;
+}
+form input {
+  width: 600px;
+  height: 50px;
+  border: transparent;
+  border-radius: 5px;
+}
+form p {
+  color: white;
+  font-size: 2rem;
+  font-family: Playpen Sans Arabic;
+}
+form input::placeholder {
+  padding-right: 15px;
+}
+form button {
+  width: 600px;
+  height: 50px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: rgb(215 183 138);
+}
+footer span {
+  color: rgb(215 183 138);
+}
+footer span:hover {
+  color: aqua;
+}
+footer p:first-child {
+  margin: auto;
+  padding-top: 80px;
+}
+footer p:nth-child(2) {
+  margin: auto;
+  padding-top: 20px;
+}
+
+footer p {
+  background-color: rgb(79, 111, 82);
+  text-align: center;
+  font-family: Playpen Sans Arabic;
+  color: white;
+}
+footer img {
+  width: 40px;
+  aspect-ratio: 1/1;
+}
+footer img:hover {
+  width: 50px;
+}
+footer div {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  display: flex;
+  background-color: rgb(79, 111, 82);
+  justify-content: center;
+  gap: 30px;
+}
+
+.skull {
+  display: none;
+}
+.heart:hover {
+  .skull {
+    display: flex;
+  }
+  .heart {
+    display: none;
+  }
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 150px;
+}
+@media (max-width: 425px) {
+  nav {
+    display: none;
+  }
+  .hero h2 {
+    display: flex;
+    font-size: 2rem;
+    font-family: Playpen Sans Arabic;
+    color: white;
+    padding-right: 20px;
+    padding-top: 60px;
+  }
+  .hero p {
+    display: flex;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: Playpen Sans Arabic;
+    color: white;
+    line-height: 50px;
+    justify-content: center;
+  }
+  .hero span {
+    color: rgb(215 183 138);
+    font-weight: 700;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 50px;
+  }
+  .hero button {
+    background: linear-gradient(135deg, #4f6f52, #d7b78a);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #4f6f524d;
+    color: #fff;
+    cursor: pointer;
+    font-family: Playpen Sans Arabic;
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 0.4rem 1.5rem;
+    transition: all 0.5s ease;
+    margin-right: 128px;
+    margin-top: 50px;
+  }
+  .hero {
+    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
+    height: 80vh; /* يخلي الجسم بطول الشاشة */
+    background-repeat: no-repeat; /* ما تتكررش */
+  }
+  .hero-2 {
+    margin-top: 3px;
+  }
+  .hero-2 {
+    height: 100vh; /* يخلي الجسم بطول الشاشة */
+  }
+}
