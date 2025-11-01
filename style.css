@@ -103,7 +103,7 @@ header img {
   font-weight: bold;
   unicode-bidi: isolate;
   color: rgb(62, 39, 35);
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .logo-con p:hover {
   border: 1px rgb(62, 39, 35) solid;
@@ -119,9 +119,8 @@ nav a {
   display: flex;
   text-decoration: none;
   color: rgb(62, 39, 35);
-  font-size: 1.3em;
-  font-family: Amiri, serif;
-  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Playpen Sans Arabic;
 }
 nav a:hover {
   border-bottom: 1px rgb(62, 39, 35) solid;
@@ -142,7 +141,8 @@ nav a:hover {
   font-size: 2.8rem;
   padding-top: 170px;
   padding-right: 100px;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   color: white;
 }
 .hero p {
@@ -150,7 +150,8 @@ nav a:hover {
   font-size: 1.5rem;
   padding-top: 50px;
   padding-right: 90px;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   color: white;
   line-height: 50px;
 }
@@ -168,7 +169,8 @@ nav a:hover {
   box-shadow: 0 4px 15px #4f6f524d;
   color: #fff;
   cursor: pointer;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   font-size: 1.05rem;
   font-weight: 700;
   padding: 0.4rem 1.5rem;
@@ -195,7 +197,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 
 .hero-2 div p {
@@ -203,7 +205,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .hero-2 button {
   display: flex;
@@ -243,7 +245,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 
 .hero-3 div p {
@@ -251,7 +253,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .hero-3 button {
   display: flex;
@@ -289,7 +291,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 
 .hero-4 div p {
@@ -297,7 +299,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .hero-4 button {
   display: flex;
@@ -335,7 +337,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 
 .hero-5 div p {
@@ -343,7 +345,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .hero-5 button {
   display: flex;
@@ -381,7 +383,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 
 .hero-6 div p {
@@ -389,7 +391,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .hero-6 button {
   display: flex;
@@ -476,7 +478,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: rgb(43, 27, 14);
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 
 .hero-7 div p {
@@ -484,7 +486,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: rgb(43, 27, 14);
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .hero-7 div iframe {
   border-radius: 20px;
@@ -511,7 +513,7 @@ nav a:hover {
 h3 {
   color: white;
   font-size: 2rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .text h3:hover {
   color: rgb(215 183 138);
@@ -520,7 +522,7 @@ h3 {
   margin-top: 30px;
   color: white;
   font-size: 1rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .arrow {
   font-size: 40px;
@@ -556,7 +558,7 @@ form input {
 form p {
   color: white;
   font-size: 2rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 form input::placeholder {
   padding-right: 15px;
@@ -567,7 +569,7 @@ form button {
   border: transparent;
   border-radius: 10px;
   background-color: rgb(215 183 138);
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 form button:hover {
   color: white;
@@ -592,7 +594,8 @@ footer p:nth-child(2) {
 footer p {
   background-color: rgb(79, 111, 82);
   text-align: center;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   color: white;
 }
 footer img {
@@ -616,13 +619,20 @@ html {
   scroll-padding-top: 150px;
 }
 @media (max-width: 425px) {
+  body {
+    overflow: hidden;
+  }
+  header {
+    display: none;
+  }
   nav {
     display: none;
   }
   .hero h2 {
     display: flex;
     font-size: 2rem;
-    font-family: Amiri, serif;
+    font-family: Playpen Sans Arabic;
+
     color: white;
     padding-right: 20px;
     padding-top: 60px;
@@ -632,7 +642,8 @@ html {
     font-size: 1rem;
     padding-top: 20px;
     padding-right: 20px;
-    font-family: Amiri, serif;
+    font-family: Playpen Sans Arabic;
+
     color: white;
     line-height: 50px;
     justify-content: center;
@@ -651,7 +662,8 @@ html {
     box-shadow: 0 4px 15px #4f6f524d;
     color: #fff;
     cursor: pointer;
-    font-family: Amiri, serif;
+    font-family: Playpen Sans Arabic;
+
     font-size: 1.05rem;
     font-weight: 700;
     padding: 0.4rem 1.5rem;
@@ -669,5 +681,79 @@ html {
   }
   .hero-2 {
     height: 100vh; /* يخلي الجسم بطول الشاشة */
+  }
+  .hero-7 div iframe {
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 400px;
+  }
+  .hero-8 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  form button {
+    width: 300px;
+    height: 50px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(215 183 138);
+    font-family: Playpen Sans Arabic;
+    margin: auto;
+  }
+  form input {
+    width: 300px;
+    height: 50px;
+    border: transparent;
+    border-radius: 10px;
+    font-family: Playpen Sans Arabic;
+    margin: auto;
+  }
+  .text {
+    padding-right: 10px;
+    padding-top: 50px;
+  }
+  .text h3 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: Playpen Sans Arabic;
+    margin: auto;
+  }
+  .text h3:hover {
+    color: rgb(215 183 138);
+  }
+  .text p {
+    margin-top: 30px;
+    color: white;
+    font-size: 1rem;
+    font-family: Playpen Sans Arabic;
+  }
+  form p {
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    font-family: Playpen Sans Arabic;
+  }
+  .hero-2 button {
+    display: flex;
+    background-color: initial;
+    border: 2px solid #f9f6f1;
+    border-radius: 35px;
+    color: #f9f6f1;
+    color: #f9f6f1;
+    cursor: pointer;
+    font-family: Cairo, sans-serif;
+    font-size: 1rem;
+
+    padding: 0.3rem 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
 }
