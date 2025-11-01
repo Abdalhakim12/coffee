@@ -103,7 +103,7 @@ header img {
   font-weight: bold;
   unicode-bidi: isolate;
   color: rgb(62, 39, 35);
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .logo-con p:hover {
   border: 1px rgb(62, 39, 35) solid;
@@ -120,7 +120,7 @@ nav a {
   text-decoration: none;
   color: rgb(62, 39, 35);
   font-size: 1.2em;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 nav a:hover {
   border-bottom: 1px rgb(62, 39, 35) solid;
@@ -141,7 +141,7 @@ nav a:hover {
   font-size: 2.8rem;
   padding-top: 170px;
   padding-right: 100px;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   color: white;
 }
 .hero p {
@@ -149,7 +149,7 @@ nav a:hover {
   font-size: 1.5rem;
   padding-top: 50px;
   padding-right: 90px;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   color: white;
   line-height: 50px;
 }
@@ -167,7 +167,7 @@ nav a:hover {
   box-shadow: 0 4px 15px #4f6f524d;
   color: #fff;
   cursor: pointer;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   padding: 0.4rem 1.5rem;
@@ -194,7 +194,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 .hero-2 div p {
@@ -202,7 +202,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .hero-2 button {
   display: flex;
@@ -242,7 +242,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 .hero-3 div p {
@@ -250,7 +250,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .hero-3 button {
   display: flex;
@@ -288,7 +288,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 .hero-4 div p {
@@ -296,7 +296,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .hero-4 button {
   display: flex;
@@ -334,7 +334,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 .hero-5 div p {
@@ -342,7 +342,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .hero-5 button {
   display: flex;
@@ -380,7 +380,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 .hero-6 div p {
@@ -388,7 +388,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: white;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .hero-6 button {
   display: flex;
@@ -475,7 +475,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: rgb(43, 27, 14);
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 
 .hero-7 div p {
@@ -483,7 +483,7 @@ nav a:hover {
   padding-top: 30px;
   text-align: center;
   color: rgb(43, 27, 14);
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .hero-7 div iframe {
   border-radius: 20px;
@@ -510,7 +510,7 @@ nav a:hover {
 h3 {
   color: white;
   font-size: 2rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .text h3:hover {
   color: rgb(215 183 138);
@@ -519,7 +519,7 @@ h3 {
   margin-top: 30px;
   color: white;
   font-size: 1rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .arrow {
   font-size: 40px;
@@ -555,7 +555,7 @@ form input {
 form p {
   color: white;
   font-size: 2rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 form input::placeholder {
   padding-right: 15px;
@@ -566,11 +566,12 @@ form button {
   border: transparent;
   border-radius: 10px;
   background-color: rgb(215 183 138);
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 form button:hover {
+  color: white;
   background-color: rgb(218, 129, 14);
-  transition: 2s ease-in-out;
+  transition: 1s ease-in-out;
 }
 footer span {
   color: rgb(215 183 138);
@@ -590,7 +591,7 @@ footer p:nth-child(2) {
 footer p {
   background-color: rgb(79, 111, 82);
   text-align: center;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   color: white;
 }
 footer img {
@@ -609,17 +610,6 @@ footer div {
   gap: 30px;
 }
 
-.skull {
-  display: none;
-}
-.heart:hover {
-  .skull {
-    display: flex;
-  }
-  .heart {
-    display: none;
-  }
-}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 150px;
@@ -631,7 +621,7 @@ html {
   .hero h2 {
     display: flex;
     font-size: 2rem;
-    font-family: Playpen Sans Arabic;
+    font-family: "Playpen Sans", sans-serif;
     color: white;
     padding-right: 20px;
     padding-top: 60px;
@@ -641,7 +631,7 @@ html {
     font-size: 1rem;
     padding-top: 20px;
     padding-right: 20px;
-    font-family: Playpen Sans Arabic;
+    font-family: "Playpen Sans", sans-serif;
     color: white;
     line-height: 50px;
     justify-content: center;
@@ -660,7 +650,7 @@ html {
     box-shadow: 0 4px 15px #4f6f524d;
     color: #fff;
     cursor: pointer;
-    font-family: Playpen Sans Arabic;
+    font-family: "Playpen Sans", sans-serif;
     font-size: 1.05rem;
     font-weight: 700;
     padding: 0.4rem 1.5rem;
