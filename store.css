@@ -103,7 +103,7 @@ header img {
   font-weight: bold;
   unicode-bidi: isolate;
   color: rgb(62, 39, 35);
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .logo-con p:hover {
   border: 1px rgb(62, 39, 35) solid;
@@ -120,7 +120,7 @@ nav a {
   text-decoration: none;
   color: rgb(62, 39, 35);
   font-size: 1.2em;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 nav a:hover {
   border-bottom: 1px rgb(62, 39, 35) solid;
@@ -141,7 +141,7 @@ nav a:hover {
   font-size: 2.8rem;
   padding-top: 170px;
   padding-right: 100px;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   color: white;
 }
 .hero p {
@@ -149,7 +149,7 @@ nav a:hover {
   font-size: 1.5rem;
   padding-top: 50px;
   padding-right: 90px;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   color: white;
   line-height: 50px;
 }
@@ -167,7 +167,7 @@ nav a:hover {
   box-shadow: 0 4px 15px #4f6f524d;
   color: #fff;
   cursor: pointer;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   font-size: 1.05rem;
   font-weight: 700;
   padding: 0.4rem 1.5rem;
@@ -209,7 +209,7 @@ nav a:hover {
 .drinks div p {
   color: rgb(62, 39, 35);
   font-size: 1.2em;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   font-weight: bold;
   padding-top: 10px;
   padding-right: 10px;
@@ -217,7 +217,7 @@ nav a:hover {
 .drinks div p:nth-child(3) {
   color: rgb(62, 39, 35);
   font-size: 1rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   padding-top: 30px;
   font-weight: normal;
 }
@@ -238,7 +238,7 @@ nav a:hover {
 h3 {
   color: white;
   font-size: 2rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 .text h3:hover {
   color: rgb(215 183 138);
@@ -247,7 +247,7 @@ h3 {
   margin-top: 30px;
   color: white;
   font-size: 1rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 form {
   display: grid;
@@ -265,7 +265,7 @@ form input {
 form p {
   color: white;
   font-size: 2rem;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
 }
 form input::placeholder {
   padding-right: 15px;
@@ -295,7 +295,7 @@ footer p:nth-child(2) {
 footer p {
   background-color: rgb(79, 111, 82);
   text-align: center;
-  font-family: Playpen Sans Arabic;
+  font-family: "Playpen Sans", sans-serif;
   color: white;
 }
 footer img {
@@ -330,58 +330,15 @@ html {
   scroll-padding-top: 150px;
 }
 @media (max-width: 425px) {
-  nav {
-    display: none;
+  .drinks {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin: auto;
   }
-  .hero h2 {
-    display: flex;
-    font-size: 2rem;
-    font-family: Playpen Sans Arabic;
-    color: white;
-    padding-right: 20px;
-    padding-top: 60px;
-  }
-  .hero p {
-    display: flex;
-    font-size: 1rem;
-    padding-top: 20px;
-    padding-right: 20px;
-    font-family: Playpen Sans Arabic;
-    color: white;
-    line-height: 50px;
-    justify-content: center;
-  }
-  .hero span {
-    color: rgb(215 183 138);
-    font-weight: 700;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 50px;
-  }
-  .hero button {
-    background: linear-gradient(135deg, #4f6f52, #d7b78a);
-    border: none;
-    border-radius: 30px;
-    box-shadow: 0 4px 15px #4f6f524d;
-    color: #fff;
-    cursor: pointer;
-    font-family: Playpen Sans Arabic;
-    font-size: 1.05rem;
-    font-weight: 700;
-    padding: 0.4rem 1.5rem;
-    transition: all 0.5s ease;
-    margin-right: 128px;
-    margin-top: 50px;
-  }
-  .hero {
-    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
-    height: 80vh; /* يخلي الجسم بطول الشاشة */
-    background-repeat: no-repeat; /* ما تتكررش */
-  }
-  .hero-2 {
-    margin-top: 3px;
-  }
-  .hero-2 {
-    height: 100vh; /* يخلي الجسم بطول الشاشة */
+  .drinks div {
+    background-color: rgb(241, 236, 229);
+    height: 250px;
+    border-radius: 20px;
   }
 }
