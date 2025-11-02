@@ -355,7 +355,7 @@ html {
 }
 @media (min-width: 601px) and (max-width: 1024px) {
   nav {
-    margin-right: 22px;
+    margin-right: 25px;
     font-size: 15px;
   }
   nav {
@@ -369,7 +369,7 @@ html {
   }
 
   .logo-con p {
-    margin-right: 10px;
+    margin-right: 12px;
   }
   .text h3 {
     color: white;
