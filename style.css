@@ -759,11 +759,9 @@ html {
 }
 @media (min-width: 601px) and (max-width: 1024px) {
   nav {
-    margin-right: 50px;
+    margin-right: 25px;
   }
-  header {
-    display: none;
-  }
+
   .hero-7 div iframe {
     border-radius: 20px;
     display: flex;
