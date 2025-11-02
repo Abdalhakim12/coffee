@@ -103,7 +103,7 @@ header img {
   font-weight: bold;
   unicode-bidi: isolate;
   color: rgb(62, 39, 35);
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .logo-con p:hover {
   border: 1px rgb(62, 39, 35) solid;
@@ -120,7 +120,7 @@ nav a {
   text-decoration: none;
   color: rgb(62, 39, 35);
   font-size: 1.2em;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 nav a:hover {
   border-bottom: 1px rgb(62, 39, 35) solid;
@@ -141,7 +141,8 @@ nav a:hover {
   font-size: 2.8rem;
   padding-top: 170px;
   padding-right: 100px;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   color: white;
 }
 .hero p {
@@ -149,7 +150,8 @@ nav a:hover {
   font-size: 1.5rem;
   padding-top: 50px;
   padding-right: 90px;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   color: white;
   line-height: 50px;
 }
@@ -167,7 +169,8 @@ nav a:hover {
   box-shadow: 0 4px 15px #4f6f524d;
   color: #fff;
   cursor: pointer;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   font-size: 1.05rem;
   font-weight: 700;
   padding: 0.4rem 1.5rem;
@@ -181,6 +184,7 @@ nav a:hover {
   gap: 30px;
   max-width: 1400px;
   margin: auto;
+  margin-bottom: 50px;
 }
 .drinks div {
   background-color: rgb(241, 236, 229);
@@ -209,7 +213,8 @@ nav a:hover {
 .drinks div p {
   color: rgb(62, 39, 35);
   font-size: 1.2em;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   font-weight: bold;
   padding-top: 10px;
   padding-right: 10px;
@@ -217,7 +222,8 @@ nav a:hover {
 .drinks div p:nth-child(3) {
   color: rgb(62, 39, 35);
   font-size: 1rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   padding-top: 30px;
   font-weight: normal;
 }
@@ -238,7 +244,7 @@ nav a:hover {
 h3 {
   color: white;
   font-size: 2rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 .text h3:hover {
   color: rgb(215 183 138);
@@ -247,7 +253,7 @@ h3 {
   margin-top: 30px;
   color: white;
   font-size: 1rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 form {
   display: grid;
@@ -265,7 +271,7 @@ form input {
 form p {
   color: white;
   font-size: 2rem;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
 }
 form input::placeholder {
   padding-right: 15px;
@@ -295,7 +301,8 @@ footer p:nth-child(2) {
 footer p {
   background-color: rgb(79, 111, 82);
   text-align: center;
-  font-family: Amiri, serif;
+  font-family: Playpen Sans Arabic;
+
   color: white;
 }
 footer img {
@@ -329,6 +336,10 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 150px;
 }
+.drinks div:hover {
+  scale: 1.05;
+  transition: 0.6s ease-in-out;
+}
 @media (max-width: 425px) {
   .drinks {
     display: grid;
@@ -340,5 +351,62 @@ html {
     background-color: rgb(241, 236, 229);
     height: 250px;
     border-radius: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  nav {
+    margin-right: 50px;
+  }
+  header {
+    display: none;
+  }
+
+  .text h3 {
+    color: white;
+    font-size: 1rem;
+    font-family: Playpen Sans Arabic;
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 30px;
+    padding-top: 50px;
+    gap: 20px;
+  }
+  form input {
+    width: 400px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5px;
+  }
+  form {
+    padding-left: 40px;
+  }
+  form button {
+    width: 400px;
+    height: 50px;
+  }
+  form p {
+    text-align: center;
+  }
+  .text {
+    padding-right: 50px;
+    padding-top: 130px;
+    text-align: center;
+  }
+  .drinks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 700px;
+    margin: auto;
+  }
+  .drinks div {
+    height: 450px;
+  }
+  .hero {
+    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
+    height: 50vh; /* يخلي الجسم بطول الشاشة */
+    background-repeat: no-repeat; /* ما تتكررش */
   }
 }

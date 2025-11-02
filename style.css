@@ -757,3 +757,101 @@ html {
     margin-bottom: 10px;
   }
 }
+@media (min-width: 601px) and (max-width: 1024px) {
+  nav {
+    margin-right: 50px;
+  }
+  header {
+    display: none;
+  }
+  .hero-7 div iframe {
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 300px;
+  }
+
+  .text h3 {
+    color: white;
+    font-size: 1rem;
+    font-family: Playpen Sans Arabic;
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 30px;
+    padding-top: 50px;
+    gap: 20px;
+  }
+  form input {
+    width: 400px;
+    height: 50px;
+    border: transparent;
+    border-radius: 5px;
+  }
+  form {
+    padding-left: 40px;
+  }
+  form button {
+    width: 400px;
+    height: 50px;
+  }
+  form p {
+    text-align: center;
+  }
+  .text {
+    padding-right: 50px;
+    padding-top: 130px;
+    text-align: center;
+  }
+  .hero {
+    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
+    height: 60vh; /* يخلي الجسم بطول الشاشة */
+    background-repeat: no-repeat; /* ما تتكررش */
+    text-align: center;
+  }
+  .hero p {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .hero button {
+    margin-right: auto;
+  }
+  .hero-8 {
+    border: none;
+  }
+  .hero-4 div {
+    background-color: rgb(43, 27, 14);
+    max-width: 600px;
+    margin: auto;
+    height: 250px;
+  }
+  .hero-3 div {
+    background-color: rgb(43, 27, 14);
+    max-width: 600px;
+    margin: auto;
+    height: 250px;
+  }
+  .hero-2 div {
+    background-color: rgb(43, 27, 14);
+    max-width: 700px;
+    margin: auto;
+    height: 250px;
+  }
+  .hero-5 div {
+    background-color: rgb(43, 27, 14);
+    max-width: 600px;
+    margin: auto;
+    height: 250px;
+  }
+  .hero-6 div {
+    background-color: rgb(43, 27, 14);
+    max-width: 600px;
+    margin: auto;
+    height: 250px;
+  }
+}
