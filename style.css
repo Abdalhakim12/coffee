@@ -783,6 +783,173 @@ html {
     margin-bottom: 10px;
   }
 }
+
+@media (max-width: 430px) and (min-width: 425px) {
+  header {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .hero h2 {
+    display: flex;
+    font-size: 1.5rem;
+    font-family: Playpen Sans Arabic;
+    color: white;
+    padding-right: 20px;
+    padding-top: 100px;
+  }
+  .hero p {
+    display: flex;
+    font-size: 0.8rem;
+    padding-top: 20px;
+    padding-right: 5px;
+    font-family: Playpen Sans Arabic;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+  }
+  .hero span {
+    color: rgb(215 183 138);
+    font-weight: 700;
+  }
+  .hero button {
+    background: linear-gradient(135deg, #4f6f52, #d7b78a);
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px #4f6f524d;
+    color: #fff;
+    cursor: pointer;
+    font-family: Playpen Sans Arabic;
+
+    font-size: 1.05rem;
+    font-weight: 700;
+    padding: 0.4rem 1.5rem;
+    transition: all 0.5s ease;
+    margin-right: 128px;
+    margin-top: 50px;
+  }
+  .hero {
+    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
+    height: 50vh; /* يخلي الجسم بطول الشاشة */
+    background-repeat: no-repeat; /* ما تتكررش */
+  }
+  .hero-2 {
+    margin-top: 30px;
+  }
+
+  .hero-2 {
+    height: 45vh; /* يخلي الجسم بطول الشاشة */
+  }
+  .hero-2 div {
+    height: 380px;
+  }
+  .hero-3 {
+    height: 45vh; /* يخلي الجسم بطول الشاشة */
+    margin-top: 100;
+  }
+  .hero-3 div {
+    height: 350px;
+  }
+  .hero-4 {
+    height: 45vh; /* يخلي الجسم بطول الشاشة */
+  }
+  .hero-4 div {
+    height: 350px;
+  }
+  .hero-5 {
+    height: 45vh; /* يخلي الجسم بطول الشاشة */
+  }
+  .hero-5 div {
+    height: 350px;
+  }
+  .hero-7 div iframe {
+    border-radius: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 370px;
+    height: 250px;
+  }
+  .hero-8 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 50px;
+    gap: 20px;
+  }
+  form button {
+    width: 370px;
+    height: 50px;
+    border: transparent;
+    border-radius: 10px;
+    background-color: rgb(215 183 138);
+    font-family: Playpen Sans Arabic;
+    margin: auto;
+  }
+  form input {
+    width: 370px;
+    height: 50px;
+    border: transparent;
+    border-radius: 10px;
+    font-family: Playpen Sans Arabic;
+    margin: auto;
+  }
+  .text {
+    padding-right: 10px;
+    padding-top: 50px;
+  }
+  .text h3 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: Playpen Sans Arabic;
+    margin: auto;
+  }
+  .text p {
+    text-align: center;
+    font-size: 0.1rem;
+  }
+  .text h3:hover {
+    color: rgb(215 183 138);
+  }
+  .text p {
+    margin-top: 30px;
+    color: white;
+    font-size: 1rem;
+    font-family: Playpen Sans Arabic;
+  }
+  form p {
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    font-family: Playpen Sans Arabic;
+  }
+  .hero-2 button {
+    display: flex;
+    background-color: initial;
+    border: 2px solid #f9f6f1;
+    border-radius: 35px;
+    color: #f9f6f1;
+    color: #f9f6f1;
+    cursor: pointer;
+    font-family: Cairo, sans-serif;
+    font-size: 1rem;
+
+    padding: 0.3rem 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+}
 @media (min-width: 601px) and (max-width: 1024px) {
   nav {
     margin-right: 25px;
