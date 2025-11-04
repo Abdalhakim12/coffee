@@ -22,6 +22,9 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  background-color: rgb(248, 245, 242);
+
+  overflow: auto;
 }
 
 /* 6. Improve media defaults */
@@ -78,8 +81,8 @@ header {
   background-color: rgb(248, 245, 242, 0.7);
   height: 5rem;
   align-items: center;
-  position: fixed;
-  width: 1600px;
+  width: 100%;
+  border-bottom: 1px rgba(62, 39, 35, 0.5) solid;
 }
 header img {
   height: 64px;
@@ -87,11 +90,7 @@ header img {
   justify-content: center;
   margin-right: 1rem;
 }
-.hero {
-  background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
-  height: 100vh; /* يخلي الجسم بطول الشاشة */
-  background-repeat: no-repeat; /* ما تتكررش */
-}
+
 .logo-con {
   display: flex;
 }
@@ -111,7 +110,7 @@ header img {
 }
 nav {
   display: flex;
-  margin-right: 520px;
+  margin-right: 510px;
   margin-left: 10px;
   gap: 40px;
 }
@@ -136,122 +135,79 @@ nav:hover a {
 nav a:hover {
   color: brown;
 }
-.hero h2 {
-  display: flex;
-  font-size: 2.8rem;
-  padding-top: 170px;
-  padding-right: 100px;
-  font-family: Cairo, sans-serif;
-
-  color: white;
+.feed {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
-.hero p {
-  display: flex;
-  font-size: 1.5rem;
-  padding-top: 50px;
-  padding-right: 90px;
+.feed h3 {
+  color: #4b2e05;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
   font-family: Cairo, sans-serif;
-
-  color: white;
-  line-height: 50px;
 }
-.hero span {
-  color: rgb(215 183 138);
-  font-weight: 700;
+.feed p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-family: Cairo, sans-serif;
+}
+.feed form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding-top: 0;
+}
+.feed input {
+  border-radius: 12px;
+  height: 60px;
+  width: 580px;
+  border: 1px black solid;
+}
+.feed input {
+  padding-right: 5px;
+  color: rgb(62, 39, 35);
+  font-family: Cairo, sans-serif;
+}
+.feed textarea {
+  border-radius: 12px;
+  height: 150px;
+  width: 580px;
+  border: 1px black solid;
   padding-right: 10px;
-  padding-left: 10px;
-  height: 50px;
+  color: rgb(62, 39, 35);
+  font-family: Cairo, sans-serif;
+  padding-top: 10px;
+  resize: none;
 }
-.hero button {
-  background: linear-gradient(135deg, #4f6f52, #d7b78a);
+.feed button {
+  background: linear-gradient(135deg, #4b2e05, #2b1b0e, #4b2e05);
   border: none;
-  border-radius: 30px;
+  border-radius: 15px;
   box-shadow: 0 4px 15px #4f6f524d;
   color: #fff;
   cursor: pointer;
   font-family: Cairo, sans-serif;
-
   font-size: 1.05rem;
-  font-weight: 700;
+  font-weight: 600;
+  margin-top: 1rem;
   padding: 0.4rem 1.5rem;
   transition: all 0.5s ease;
-  margin-right: 85px;
-  margin-top: 50px;
+  height: 50px;
 }
-.drinks {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  max-width: 1400px;
-  margin: auto;
-  margin-bottom: 50px;
+.feed:hover {
+  transform: translateY(-3px);
+  transition: 1s ease-in-out;
 }
-.drinks div {
-  background-color: rgb(241, 236, 229);
-  height: 500px;
-  border-radius: 20px;
-}
-.drinks button {
-  background-color: initial;
-  border: 2px solid #4f6f52;
-  border-radius: 35px;
-  color: #4f6f52;
-  cursor: pointer;
-  font-family: Cairo, sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 0.25rem 1.2rem;
-  transition: all 0.3s ease;
-}
-
-aside {
-  margin-top: 30px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.drinks div:nth-child(1) {
-  margin-top: 100px;
-}
-.drinks div:nth-child(2) {
-  margin-top: 100px;
-}
-.drinks div:nth-child(3) {
-  margin-top: 100px;
-}
-.drinks div:nth-child(4) {
-  margin-top: 100px;
-}
-.drinks img {
-  width: 330px;
-  height: 300px;
-  border-radius: 20px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.drinks div p {
-  color: rgb(62, 39, 35);
-  font-size: 1.2em;
-  font-family: Cairo, sans-serif;
-
-  font-weight: bold;
-  padding-top: 10px;
-  padding-right: 10px;
-}
-.drinks div p:nth-child(3) {
-  color: rgb(62, 39, 35);
-  font-size: 1rem;
-  font-family: Cairo, sans-serif;
-
-  padding-top: 30px;
-  font-weight: normal;
-}
-
 .hero-8 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* border-bottom: 1px white solid; */
-  margin-top: 100px;
 }
 .hero-8 div {
   background-color: rgb(79, 111, 82);
@@ -274,6 +230,24 @@ h3 {
   color: white;
   font-size: 1rem;
   font-family: Cairo, sans-serif;
+}
+.arrow {
+  font-size: 40px;
+  animation: float 1s ease-in-out infinite;
+  transition: 1s infinite;
+  display: inline-block;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10);
+  }
 }
 form {
   display: grid;
@@ -302,6 +276,12 @@ form button {
   border: transparent;
   border-radius: 10px;
   background-color: rgb(215 183 138);
+  font-family: Cairo, sans-serif;
+}
+form button:hover {
+  color: white;
+  background-color: rgb(218, 129, 14);
+  transition: 1s ease-in-out;
 }
 footer span {
   color: rgb(215 183 138);
@@ -344,95 +324,4 @@ footer div {
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 150px;
-}
-.drinks div:hover {
-  scale: 1.03;
-  transition: 0.6s ease-in-out;
-}
-@media (max-width: 425px) {
-  .drinks {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 30px;
-    margin: auto;
-  }
-  .drinks div {
-    background-color: rgb(241, 236, 229);
-    height: 250px;
-    border-radius: 20px;
-  }
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-  nav {
-    margin-right: 25px;
-    font-size: 15px;
-  }
-  nav {
-    gap: 15px;
-  }
-  .hero h2 {
-    padding-right: 30px;
-  }
-  .hero p {
-    padding-right: 30px;
-  }
-
-  .logo-con p {
-    margin-right: 12px;
-  }
-  .text h3 {
-    color: white;
-    font-size: 1rem;
-    font-family: Cairo, sans-serif;
-  }
-  form {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding-right: 30px;
-    padding-top: 50px;
-    gap: 20px;
-  }
-  form input {
-    width: 400px;
-    height: 50px;
-    border: transparent;
-    border-radius: 5px;
-  }
-  form {
-    padding-left: 40px;
-  }
-  form button {
-    width: 400px;
-    height: 50px;
-  }
-  form p {
-    text-align: center;
-  }
-  .text {
-    padding-right: 50px;
-    padding-top: 130px;
-    text-align: center;
-  }
-  .drinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    max-width: 700px;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-  .drinks div {
-    height: 450px;
-  }
-  .drinks div:nth-child(3) {
-    margin-top: 0;
-  }
-  .drinks div:nth-child(4) {
-    margin-top: 0;
-  }
-  .hero {
-    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
-    height: 50vh; /* يخلي الجسم بطول الشاشة */
-    background-repeat: no-repeat; /* ما تتكررش */
-  }
 }

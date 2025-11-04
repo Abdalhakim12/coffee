@@ -1,0 +1,202 @@
+# Query: font-family:
+# ContextLines: 1
+
+41 results - 2 files
+
+store.css:
+  105    color: rgb(62, 39, 35);
+  106:   font-family: 'Playpen Sans', sans-serif;
+  107  }
+
+  122    font-size: 1.2em;
+  123:   font-family: 'Playpen Sans', sans-serif;
+
+  124  }
+
+  143    padding-right: 100px;
+  144:   font-family: 'Playpen Sans', sans-serif;
+
+  145    color: white;
+
+  151    padding-right: 90px;
+  152:   font-family: 'Playpen Sans', sans-serif;
+
+  153    color: white;
+
+  169    cursor: pointer;
+  170:   font-family: 'Playpen Sans', sans-serif;
+
+  171    font-size: 1.05rem;
+
+  211    font-size: 1.2em;
+  212:  font-family: 'Playpen Sans', sans-serif;
+
+  213    font-weight: bold;
+
+  219    font-size: 1rem;
+  220:   font-family: 'Playpen Sans', sans-serif;
+
+  221    padding-top: 30px;
+
+  240    font-size: 2rem;
+  241:   font-family: 'Playpen Sans', sans-serif;
+
+  242  }
+
+  249    font-size: 1rem;
+  250:   font-family: 'Playpen Sans', sans-serif;
+
+  251  }
+
+  267    font-size: 2rem;
+  268:   font-family: 'Playpen Sans', sans-serif;
+
+  269  }
+
+  297    text-align: center;
+  298:   font-family: 'Playpen Sans', sans-serif;
+
+  299    color: white;
+
+style.css:
+  105    color: rgb(62, 39, 35);
+  106:  font-family: 'Playpen Sans', sans-serif;
+
+  107  }
+
+  122    font-size: 1.2em;
+  123:   font-family: 'Playpen Sans', sans-serif;
+
+  124  }
+
+  143    padding-right: 100px;
+  144:   font-family: 'Playpen Sans', sans-serif;
+
+  145    color: white;
+
+  151    padding-right: 90px;
+  152:   font-family: 'Playpen Sans', sans-serif;
+
+  153    color: white;
+
+  169    cursor: pointer;
+  170:   font-family: 'Playpen Sans', sans-serif;
+
+  171    font-size: 1.05rem;
+
+  196    color: white;
+  197:   font-family: 'Playpen Sans', sans-serif;
+
+  198  }
+
+  204    color: white;
+  205:   font-family: Playpen Sans Arabic;
+  206  }
+
+  214    cursor: pointer;
+  215:   font-family: Cairo, sans-serif;
+  216    font-size: 1rem;
+
+  244    color: white;
+  245:   font-family: 'Playpen Sans', sans-serif;
+
+  246  }
+
+  252    color: white;
+  253:   font-family: 'Playpen Sans', sans-serif;
+
+  254  }
+
+  262    cursor: pointer;
+  263:   font-family: Cairo, sans-serif;
+  264    font-size: 1rem;
+
+  290    color: white;
+  291:   font-family: 'Playpen Sans', sans-serif;
+
+  292  }
+
+  298    color: white;
+  299:   font-family: 'Playpen Sans', sans-serif;
+
+  300  }
+
+  308    cursor: pointer;
+  309:   font-family: Cairo, sans-serif;
+  310    font-size: 1rem;
+
+  336    color: white;
+  337:   font-family: 'Playpen Sans', sans-serif;
+
+  338  }
+
+  344    color: white;
+  345:   font-family: 'Playpen Sans', sans-serif;
+
+  346  }
+
+  354    cursor: pointer;
+  355:   font-family: Cairo, sans-serif;
+  356    font-size: 1rem;
+
+  382    color: white;
+  383:   font-family: Playpen Sans Arabic;
+  384  }
+
+  390    color: white;
+  391:   font-family: Playpen Sans Arabic;
+  392  }
+
+  400    cursor: pointer;
+  401:   font-family: Cairo, sans-serif;
+  402    font-size: 1rem;
+
+  477    color: rgb(43, 27, 14);
+  478:   font-family: 'Playpen Sans', sans-serif;
+
+  479  }
+
+  485    color: rgb(43, 27, 14);
+  486:   font-family: 'Playpen Sans', sans-serif;
+
+  487  }
+
+  512    font-size: 2rem;
+  513:   font-family: 'Playpen Sans', sans-serif;
+
+  514  }
+
+  521    font-size: 1rem;
+  522:   font-family: 'Playpen Sans', sans-serif;
+
+  523  }
+
+  557    font-size: 2rem;
+  558:   font-family: 'Playpen Sans', sans-serif;
+
+  559  }
+
+  568    background-color: rgb(215 183 138);
+  569:   font-family: 'Playpen Sans', sans-serif;
+
+  570  }
+
+  593    text-align: center;
+  594:   font-family: 'Playpen Sans', sans-serif;
+
+  595    color: white;
+
+  623      font-size: 2rem;
+  624:     font-family: 'Playpen Sans', sans-serif;
+
+  625      color: white;
+
+  633      padding-right: 20px;
+  634:     font-family: 'Playpen Sans', sans-serif;
+
+  635      color: white;
+
+  652      cursor: pointer;
+  653:     font-family: 'Playpen Sans', sans-serif;
+
+  654      font-size: 1.05rem;

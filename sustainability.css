@@ -162,96 +162,92 @@ nav a:hover {
   padding-left: 10px;
   height: 50px;
 }
-.hero button {
-  background: linear-gradient(135deg, #4f6f52, #d7b78a);
-  border: none;
-  border-radius: 30px;
-  box-shadow: 0 4px 15px #4f6f524d;
-  color: #fff;
-  cursor: pointer;
-  font-family: Cairo, sans-serif;
 
-  font-size: 1.05rem;
-  font-weight: 700;
-  padding: 0.4rem 1.5rem;
-  transition: all 0.5s ease;
-  margin-right: 85px;
-  margin-top: 50px;
+.vision h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(62, 39, 35);
 }
-.drinks {
+
+.vision p {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(62, 39, 35);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Cairo, sans-serif;
+}
+.sustainability-img {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
   max-width: 1400px;
   margin: auto;
-  margin-bottom: 50px;
+  column-gap: 150px;
+  row-gap: 50px;
 }
-.drinks div {
-  background-color: rgb(241, 236, 229);
-  height: 500px;
-  border-radius: 20px;
-}
-.drinks button {
-  background-color: initial;
-  border: 2px solid #4f6f52;
-  border-radius: 35px;
+.sustainability-img h3 {
+  font-size: 2rem;
   color: #4f6f52;
-  cursor: pointer;
-  font-family: Cairo, sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
-  padding: 0.25rem 1.2rem;
-  transition: all 0.3s ease;
+  top: 50%;
+  margin-top: 170px;
 }
 
-aside {
+.sustainability-img div p {
   margin-top: 30px;
   display: flex;
-  justify-content: space-around;
-}
-
-.drinks div:nth-child(1) {
-  margin-top: 100px;
-}
-.drinks div:nth-child(2) {
-  margin-top: 100px;
-}
-.drinks div:nth-child(3) {
-  margin-top: 100px;
-}
-.drinks div:nth-child(4) {
-  margin-top: 100px;
-}
-.drinks img {
-  width: 330px;
-  height: 300px;
-  border-radius: 20px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.drinks div p {
-  color: rgb(62, 39, 35);
-  font-size: 1.2em;
+  align-items: center; /* توسيط رأسي */
+  color: rgba(62, 39, 35, 0.9);
   font-family: Cairo, sans-serif;
-
-  font-weight: bold;
-  padding-top: 10px;
-  padding-right: 10px;
 }
-.drinks div p:nth-child(3) {
-  color: rgb(62, 39, 35);
-  font-size: 1rem;
-  font-family: Cairo, sans-serif;
-
+.sustainability-img img {
+  width: 489px;
+  aspect-ratio: 1/1;
+}
+.sustainability-img {
+  margin-top: 100px;
+}
+.sustainability-img img:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+.sustainability-img p:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+.board {
+  text-align: center;
+  max-width: 900px;
+  height: 180px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ede3d9;
+  border-bottom: 3px solid #d7b78a;
+  border-top: 3px solid #d7b78a;
   padding-top: 30px;
-  font-weight: normal;
+  padding-bottom: 50px;
 }
-
+.board:hover {
+  transform: scale(1.1);
+  transition: 1s ease-in-out;
+}
+.board h4 {
+  text-align: center;
+  color: rgb(62, 39, 35);
+  font-family: Cairo, sans-serif;
+  font-size: 1.7rem;
+}
+.board p {
+  text-align: center;
+  color: rgb(62, 39, 35);
+  font-family: Cairo, sans-serif;
+  font-size: 1rem;
+  padding-top: 40px;
+}
 .hero-8 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   /* border-bottom: 1px white solid; */
-  margin-top: 100px;
 }
 .hero-8 div {
   background-color: rgb(79, 111, 82);
@@ -341,13 +337,20 @@ footer div {
   gap: 30px;
 }
 
+.skull {
+  display: none;
+}
+.heart:hover {
+  .skull {
+    display: flex;
+  }
+  .heart {
+    display: none;
+  }
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 150px;
-}
-.drinks div:hover {
-  scale: 1.03;
-  transition: 0.6s ease-in-out;
 }
 @media (max-width: 425px) {
   .drinks {
@@ -360,79 +363,5 @@ html {
     background-color: rgb(241, 236, 229);
     height: 250px;
     border-radius: 20px;
-  }
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-  nav {
-    margin-right: 25px;
-    font-size: 15px;
-  }
-  nav {
-    gap: 15px;
-  }
-  .hero h2 {
-    padding-right: 30px;
-  }
-  .hero p {
-    padding-right: 30px;
-  }
-
-  .logo-con p {
-    margin-right: 12px;
-  }
-  .text h3 {
-    color: white;
-    font-size: 1rem;
-    font-family: Cairo, sans-serif;
-  }
-  form {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    padding-right: 30px;
-    padding-top: 50px;
-    gap: 20px;
-  }
-  form input {
-    width: 400px;
-    height: 50px;
-    border: transparent;
-    border-radius: 5px;
-  }
-  form {
-    padding-left: 40px;
-  }
-  form button {
-    width: 400px;
-    height: 50px;
-  }
-  form p {
-    text-align: center;
-  }
-  .text {
-    padding-right: 50px;
-    padding-top: 130px;
-    text-align: center;
-  }
-  .drinks {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    max-width: 700px;
-    margin: auto;
-    margin-bottom: 50px;
-  }
-  .drinks div {
-    height: 450px;
-  }
-  .drinks div:nth-child(3) {
-    margin-top: 0;
-  }
-  .drinks div:nth-child(4) {
-    margin-top: 0;
-  }
-  .hero {
-    background-image: url(—Pngtree—coffee\ fresh\ brown\ poster\ banner_1069397.jpg);
-    height: 50vh; /* يخلي الجسم بطول الشاشة */
-    background-repeat: no-repeat; /* ما تتكررش */
   }
 }
